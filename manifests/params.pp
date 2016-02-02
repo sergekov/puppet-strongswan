@@ -15,6 +15,7 @@ class strongswan::params {
       $ipsec_conf             = '/etc/strongswan/ipsec.conf'
       $ipsec_secrets          = '/etc/strongswan/ipsec.secrets'
       $charon_conf            = '/etc/strongswan/strongswan.d/charon.conf'
+      $charon_logging_conf    = '/etc/strongswan/strongswan.d/charon-logging.conf'
     }
 
     default: {
